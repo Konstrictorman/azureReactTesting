@@ -20,7 +20,7 @@ function App() {
 export default App;
 
 function ProfileContent() {
-   const { instance, accounts, inProgress } = useMsal();
+   const { instance, accounts } = useMsal();
    const [accessToken, setAccessToken] = useState(null);
 
    const name = accounts[0] && accounts[0].name;
