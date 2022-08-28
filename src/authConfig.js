@@ -1,8 +1,8 @@
 export const msalConfig = {
    auth: {
-     clientId: "6cebbf4e-4092-418a-abc7-6d483c3f8f04",
-     authority: "https://login.microsoftonline.com/e6eb211f-4f1d-4d85-a663-7ede2efbf39b", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
-     redirectUri: "http://localhost:3000",
+     clientId: "6165b7a8-04ae-4185-8704-b6ec63ab4c14",
+     authority: "https://login.microsoftonline.com/c9277e2f-d5b3-4cb1-8d3c-f374f42ffbc4", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
+     redirectUri: "https://zealous-coast-09027a810.1.azurestaticapps.net/",
    },
    cache: {
      cacheLocation: "sessionStorage", // This configures where your cache will be stored
